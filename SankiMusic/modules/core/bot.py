@@ -7,7 +7,7 @@ from SankiMusic.utilities import config
 
 class Bot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(__name__).info(f"Starting EBD QN Bot...")
         super().__init__(
             "SankiMusic",
             api_id=config.API_ID,
